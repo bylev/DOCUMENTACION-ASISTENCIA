@@ -119,8 +119,8 @@ $$ AB = \begin{bmatrix}
 5 & 2 \\
 -1 & 3
 \end{bmatrix} = \begin{bmatrix}
-(2*5) + (-1*-1) & (2*2) + (-1*3) \\
-(3*5) + (4*-1) & (3*2) + (4*3)
+2\cdot5+(-1)\cdot(-1) & 2\cdot2+(-1)\cdot3\\
+3\cdot5+4\cdot(-1)    & 3\cdot2+4\cdot3
 \end{bmatrix} = \begin{bmatrix}
 11 & 1 \\
 11 & 18
@@ -134,8 +134,8 @@ $$ BA = \begin{bmatrix}
 2 & -1 \\
 3 & 4
 \end{bmatrix} = \begin{bmatrix}
-(5\cdot 2) + (2*3) & (5*-1) + (2*4) \\
-(-1*2) + (3*3) & (-1*-1) + (3*4)
+(5\cdot2) + (2\cdot3) & (5\cdot-1) + (2\cdot4) \\
+(-1\cdot2) + (3\cdot3) & (-1\cdot-1) + (3\cdot4)
 \end{bmatrix} = \begin{bmatrix}
 16 & 3 \\
 7 & 13
@@ -178,8 +178,8 @@ $$ AB = \begin{bmatrix}
 2 & 0 \\
 1 & 3
 \end{bmatrix} = \begin{bmatrix}
-(1*2) + (2*1) & (1*0) + (2*3) \\
-(3*2) + (4*1) & (3*0) + (4*3)
+(1\cdot2) + (2\cdot1) & (1\cdot0) + (2\cdot3) \\
+(3\cdot2) + (4\cdot1) & (3\cdot0) + (4\cdot3)
 \end{bmatrix} = \begin{bmatrix}
 4 & 6 \\
 10 & 12
@@ -191,8 +191,8 @@ $$ (AB)C = \begin{bmatrix}
 1 & 1 \\
 0 & 2
 \end{bmatrix} = \begin{bmatrix}
-(4*1) + (6*0) & (4*1) + (6*2) \\
-(10*1) + (12*0) & (10*1) + (12*2)
+(4\cdot1) + (6\cdot0) & (4\cdot1) + (6\cdot2) \\
+(10\cdot1) + (12\cdot0) & (10\cdot1) + (12\cdot2)
 \end{bmatrix} = \begin{bmatrix}
 4 & 16 \\
 10 & 34
@@ -206,8 +206,8 @@ $$ BC = \begin{bmatrix}
 1 & 1 \\
 0 & 2
 \end{bmatrix} = \begin{bmatrix}
-(2*1) + (0*0) & (2*1) + (0*2) \\
-(1*1) + (3*0) & (1*1) + (3*2)
+(2\cdot1) + (0\cdot0) & (2\cdot1) + (0\cdot2) \\
+(1\cdot1) + (3\cdot0) & (1\cdot1) + (3\cdot2)
 \end{bmatrix} = \begin{bmatrix}
 2 & 2 \\
 1 & 7
@@ -219,11 +219,12 @@ $$ A(BC) = \begin{bmatrix}
 2 & 2 \\
 1 & 7
 \end{bmatrix} = \begin{bmatrix}
-(1*2) + (2*1) & (1*2) + (2*7) \\
-(3*2) + (4*1) & (3*2) + (4*7)
+(1\cdot2) + (2\cdot1) & (1\cdot2) + (2\cdot7) \\
+(3\cdot2) + (4\cdot1) & (3\cdot2) + (4\cdot7)
 \end{bmatrix} = \begin{bmatrix}
 4 & 16 \\
 10 & 34
 \end{bmatrix} $$
 
 *Conclusión*: Por lo tanto, se verifica que $(AB)C = A(BC)$.
+
