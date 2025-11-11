@@ -134,7 +134,7 @@ $$ BA = \begin{bmatrix}
 2 & -1 \\
 3 & 4
 \end{bmatrix} = \begin{bmatrix}
-(5*2) + (2*3) & (5*-1) + (2*4) \\
+(5\cdot 2) + (2*3) & (5*-1) + (2*4) \\
 (-1*2) + (3*3) & (-1*-1) + (3*4)
 \end{bmatrix} = \begin{bmatrix}
 16 & 3 \\
