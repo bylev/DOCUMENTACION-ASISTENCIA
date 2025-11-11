@@ -156,9 +156,10 @@ Comprobar la propiedad asociativa de la multiplicación de matrices mediante el 
 
 ---
 
-*Verificar que $(AB)C = A(BC)$*
+*Verificar que* $(AB)C = A(BC)$ 
 
 Dadas las matrices:
+
 $$ A = \begin{bmatrix}
 1 & 2 \\
 3 & 4 
